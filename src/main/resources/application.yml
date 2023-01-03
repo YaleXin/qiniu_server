@@ -1,0 +1,17 @@
+# 应用名称
+spring:
+  profiles:
+    active: prod
+  application:
+    name: qiniu_server
+server:
+  port: 8080
+
+# ========================== ↓↓↓↓↓↓ 七牛云配置 ↓↓↓↓↓↓ ==========================
+#qiniu:
+#  accessKey: xxx
+#  secretKey: xxx
+#  # 对象储存
+#  bucket: zhengqingya # 空间名称
+#  zone: huadong # 存储区域
+#  domain: q6nf5vyrf.bkt.clouddn.com # 访问域名
